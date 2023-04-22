@@ -1,9 +1,9 @@
-from typing import Any
+from typing import Any, Optional
 
 from clickhouse_driver import Client
 
 
-class CHAccess:
+class Session:
     connection_: Client
     connection_string_: str
 
